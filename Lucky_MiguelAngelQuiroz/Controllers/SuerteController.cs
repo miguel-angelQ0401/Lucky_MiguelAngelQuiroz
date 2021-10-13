@@ -12,11 +12,11 @@ namespace Lucky_MiguelAngelQuiroz.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SuertesController : ControllerBase
+    public class SuerteController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public SuertesController(AppDbContext context)
+        public SuerteController(AppDbContext context)
         {
             _context = context;
         }
