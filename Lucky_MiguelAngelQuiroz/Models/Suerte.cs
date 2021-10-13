@@ -13,10 +13,10 @@ namespace Lucky_MiguelAngelQuiroz.Models
         public int SuerteId { get; set; }
         
         [Required(AllowEmptyStrings = false, ErrorMessage = "El {0} es requerido")]
-        [StringLength(150, MinimumLength = 5, ErrorMessage = "La longitud de {0} debe ser entre {2} y {1}")]
+        [StringLength(500, MinimumLength = 5, ErrorMessage = "La longitud de {0} debe ser entre {2} y {1}")]
         public string Detalle { get; set; }
         [Url]
-        [StringLength(100, MinimumLength = 1, ErrorMessage = "La longitud de {0} debe ser entre {2} y {1}")]
+        [StringLength(5000, MinimumLength = 1, ErrorMessage = "La longitud de {0} debe ser entre {2} y {1}")]
         public string URL { get; set; }
     }
 }
