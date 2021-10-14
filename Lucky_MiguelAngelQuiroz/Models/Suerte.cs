@@ -9,7 +9,7 @@ namespace Lucky_MiguelAngelQuiroz.Models
     public class Suerte
     {
         [Key]
-        [StringLength(10, MinimumLength = 1, ErrorMessage = "La longitud de {0} debe ser entre {2} y {1}")]
+        //[StringLength(10, MinimumLength = 1, ErrorMessage = "La longitud de {0} debe ser entre {2} y {1}")]
         public int SuerteId { get; set; }
         
         [Required(AllowEmptyStrings = false, ErrorMessage = "El {0} es requerido")]
