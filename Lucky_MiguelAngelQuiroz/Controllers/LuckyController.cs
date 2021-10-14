@@ -30,14 +30,14 @@ namespace Lucky_MiguelAngelQuiroz.Controllers
             var max = list.Count;
             int index = new Random().Next(0, max);
 
-            var cancion = list[index];
+            var suerte = list[index];
 
-            if (cancion == null)
+            if (suerte == null)
             {
                 return NoContent();
             }
 
-            return cancion;
+            return suerte;
         }
     }
 }
